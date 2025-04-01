@@ -1,0 +1,8 @@
+name: readmission-mlops
+
+entry_points:
+  main:
+    parameters:
+      data_path: {type: str, default: "data/DSA-2025_clean_data.tsv"}
+    command: >
+      python train.py
